@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.stacked-notifications"
+          path="/org/gnome/shell/extensions/stacked-notifications/">
+    <key name="max-visible" type="i">
+      <range min="1" max="10"/>
+      <default>3</default>
+      <summary>Maximum number of visible notifications</summary>
+      <description>When a new notification arrives and this many are already shown, the oldest one is hidden.</description>
+    </key>
+    <key name="position" type="s">
+      <choices>
+        <choice value="top-left"/>
+        <choice value="top-center"/>
+        <choice value="top-right"/>
+        <choice value="bottom-left"/>
+        <choice value="bottom-center"/>
+        <choice value="bottom-right"/>
+      </choices>
+      <default>'top-center'</default>
+      <summary>Where notifications appear on screen</summary>
+    </key>
+  </schema>
+</schemalist>
