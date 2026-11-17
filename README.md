@@ -5,9 +5,10 @@ Allows multiple notifications to be displayed in a stack in gnome shell.
 ## Install
 
 ```
-mkdir -p ~/.local/share/gnome-shell/extensions
-ln -s /path/to/repo ~/.local/share/gnome-shell/extensions/stacked-notifications@local
+gnome-extensions install --force stacked-notifications@local.shell-extension.zip
 ```
+
+Might need to restart gnome shell before the extension can be enabled.
 
 ## Enable
 
