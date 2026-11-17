@@ -1,0 +1,8 @@
+{
+  "uuid": "stacked-notifications@local",
+  "name": "Stacked Notifications",
+  "description": "Show several notification banners at once, stacked on top of each other, at a configurable screen position.",
+  "shell-version": ["49"],
+  "settings-schema": "org.gnome.shell.extensions.stacked-notifications",
+  "version-name": "1.0"
+}
